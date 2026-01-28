@@ -69,14 +69,14 @@ It allows users to generate different types of passwords based on their choice a
 
 
  
-  while True:
-     print("\n🔐 PASSWORD GENERATOR MENU 🔐")
-     print("1. Lowercase password")
-     print("2. Letters (Upper + Lower)")
-     print("3. Numbers only")
-     print("4. Symbols only")
-     print("5. Strong password")
-     print("6. Exit")
+     while True:
+      print("\n🔐 PASSWORD GENERATOR MENU 🔐")
+      print("1. Lowercase password")
+      print("2. Letters (Upper + Lower)")
+      print("3. Numbers only")
+      print("4. Symbols only")
+      print("5. Strong password")
+      print("6. Exit")
 
     choice = int(input("Enter your choice: "))
 
