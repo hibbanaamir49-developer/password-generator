@@ -28,8 +28,12 @@ It allows users to generate different types of passwords based on their choice a
 6. Exit
 
 ## 🧠 Source Code
+
+
 import random
+
 ---------- FUNCTION ----------
+
 def generate_password(length, choice):
 
     # Nested List
@@ -63,7 +67,9 @@ def generate_password(length, choice):
 
 # ---------- MAIN PROGRAM ----------
 
+
 while True:
+
     print("\n🔐 PASSWORD GENERATOR MENU 🔐")
     print("1. Lowercase password")
     print("2. Letters (Upper + Lower)")
@@ -83,7 +89,7 @@ while True:
     password = generate_password(length, choice)
     print("Generated Password:", password)
 
-🧪 Sample Output
+## 🧪 Sample Output
 
 🔐 PASSWORD GENERATOR MENU 🔐
 Enter your choice: 5
