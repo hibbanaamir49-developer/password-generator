@@ -19,7 +19,7 @@ It allows users to generate different types of passwords based on their choice a
 
 ---
 
-📋 Program Menu
+## 📋 Program Menu
 1. Lowercase password
 2. Letters (Upper + Lower)
 3. Numbers only
@@ -27,10 +27,9 @@ It allows users to generate different types of passwords based on their choice a
 5. Strong password
 6. Exit
 
-🧠 Source Code
+## 🧠 Source Code
 import random
-
-# ---------- FUNCTION ----------
+---------- FUNCTION ----------
 def generate_password(length, choice):
 
     # Nested List
@@ -63,6 +62,7 @@ def generate_password(length, choice):
 
 
 # ---------- MAIN PROGRAM ----------
+
 while True:
     print("\n🔐 PASSWORD GENERATOR MENU 🔐")
     print("1. Lowercase password")
@@ -84,6 +84,7 @@ while True:
     print("Generated Password:", password)
 
 🧪 Sample Output
+
 🔐 PASSWORD GENERATOR MENU 🔐
 Enter your choice: 5
 Enter password length: 10
