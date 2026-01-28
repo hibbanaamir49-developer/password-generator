@@ -29,8 +29,8 @@ It allows users to generate different types of passwords based on their choice a
 
 ## 🧠 Source Code
 
-
-import random
+      
+       import random
 
 ---------- FUNCTION ----------
 
@@ -68,8 +68,8 @@ def generate_password(length, choice):
 # ---------- MAIN PROGRAM ----------
 
 
+ 
 while True:
-
     print("\n🔐 PASSWORD GENERATOR MENU 🔐")
     print("1. Lowercase password")
     print("2. Letters (Upper + Lower)")
@@ -91,7 +91,11 @@ while True:
 
 ## 🧪 Sample Output
 
+
 🔐 PASSWORD GENERATOR MENU 🔐
+
 Enter your choice: 5
+
 Enter password length: 10
+
 Generated Password: A9@kP2!fQ#
