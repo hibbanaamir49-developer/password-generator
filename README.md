@@ -1,9 +1,9 @@
 # password-generator
 import random
 
-# ---------- FUNCTION ----------
-
-def generate_password(length, choice):
+#  --------FUNCTION--------
+#
+ def generate_password(length, choice):
     # Nested List
     char_groups = [
         list("abcdefghijklmnopqrstuvwxyz"),
