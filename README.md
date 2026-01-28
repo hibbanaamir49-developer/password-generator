@@ -32,9 +32,9 @@ It allows users to generate different types of passwords based on their choice a
       
        import random
 
----------- FUNCTION ----------
+    ---------- FUNCTION ----------
 
-def generate_password(length, choice):
+    def generate_password(length, choice):
 
     # Nested List
     char_groups = [
@@ -69,14 +69,14 @@ def generate_password(length, choice):
 
 
  
-while True:
-    print("\n🔐 PASSWORD GENERATOR MENU 🔐")
-    print("1. Lowercase password")
-    print("2. Letters (Upper + Lower)")
-    print("3. Numbers only")
-    print("4. Symbols only")
-    print("5. Strong password")
-    print("6. Exit")
+  while True:
+     print("\n🔐 PASSWORD GENERATOR MENU 🔐")
+     print("1. Lowercase password")
+     print("2. Letters (Upper + Lower)")
+     print("3. Numbers only")
+     print("4. Symbols only")
+     print("5. Strong password")
+     print("6. Exit")
 
     choice = int(input("Enter your choice: "))
 
@@ -92,10 +92,10 @@ while True:
 ## 🧪 Sample Output
 
 
-🔐 PASSWORD GENERATOR MENU 🔐
+  🔐 PASSWORD GENERATOR MENU 🔐
 
-Enter your choice: 5
+   Enter your choice: 5
 
-Enter password length: 10
+  Enter password length: 10
 
-Generated Password: A9@kP2!fQ#
+ Generated Password: A9@kP2!fQ#
