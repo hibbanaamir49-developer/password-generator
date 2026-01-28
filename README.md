@@ -2,8 +2,8 @@
 import random
 
 # ---------- FUNCTION ----------
-def generate_password(length, choice):
 
+def generate_password(length, choice):
     # Nested List
     char_groups = [
         list("abcdefghijklmnopqrstuvwxyz"),
@@ -34,6 +34,7 @@ def generate_password(length, choice):
 
 
 # ---------- MAIN PROGRAM ----------
+
 while True:
     print("\n🔐 PASSWORD GENERATOR MENU 🔐")
     print("1. Lowercase password")
@@ -42,14 +43,10 @@ while True:
     print("4. Symbols only")
     print("5. Strong password")
     print("6. Exit")
-
     choice = int(input("Enter your choice: "))
-
     if choice == 6:
         print("Thank you! Program ended.")
         break
-
     length = int(input("Enter password length: "))
-
     password = generate_password(length, choice)
     print("Generated Password:", password)
