@@ -92,10 +92,10 @@ It allows users to generate different types of passwords based on their choice a
 ## 🧪 Sample Output
 
 
-  🔐 PASSWORD GENERATOR MENU 🔐
+    🔐 PASSWORD GENERATOR MENU 🔐
 
-   Enter your choice: 5
+    Enter your choice: 5
 
-  Enter password length: 10
+    Enter password length: 10
 
- Generated Password: A9@kP2!fQ#
+    Generated Password: A9@kP2!fQ#
